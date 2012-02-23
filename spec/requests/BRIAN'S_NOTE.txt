@@ -1,0 +1,19 @@
+I created this directory, even though it was supposed to be autocreated,
+p.178
+
+"
+Note that the generator automatically appends_spec.rb to the name of our test file,
+yielding spec/requests/layout_links_spec.rb. (In RSpec, integration tests are
+also called request specs ; the origins of this terminology are obscure to me.)
+Our integration test will use the same get function we used in Section 3.2 in the
+Pages controller spec, with code like this:
+describe "GET 'home'" do
+it "should be successful"do
+get 'home'
+response.should be_success
+end
+end
+
+"
+
+*I also did not create "layout_links_spec.rb"
