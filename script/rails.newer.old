@@ -1,0 +1,11 @@
+diff --git a/script/rails b/script/rails
+index 81eab02..711d4ca 100644
+--- a/script/rails
++++ b/script/rails
+@@ -3,4 +3,4 @@
+ 
+ APP_PATH = File.expand_path('../../config/application',  __FILE__)
+ require File.expand_path('../../config/boot',  __FILE__)
+-require 'rails/commands'
++require 'rails/commands'
+\ No newline at end of file
